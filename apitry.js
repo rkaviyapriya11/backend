@@ -14,7 +14,7 @@ app.use(cors(corsorigin))
 app.use(express.json())
 app.use(bodyparser.urlencoded({ extended: true }))
 
-mongoose.connect('mongodb+srv://rkaviyapriya11:kaviyapriya/sample')
+mongoose.connect('mongodb+srv://rkaviyapriya11:kaviyapriya@cluster0.msreg.mongodb.net/sample')
     .then(() => {
         console.log('Connecting by kaviya ')
     })
