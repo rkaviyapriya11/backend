@@ -7,7 +7,7 @@ const bodyparser = require('body-parser');
 
 // Link Frotend
 const corsorigin = {
-    origin: 'http://localhost:3000'
+    origin: 'https://frontend-h0q2fn28y-r-kaviyapriyas-projects.vercel.app'
 }
 
 app.use(cors(corsorigin))
