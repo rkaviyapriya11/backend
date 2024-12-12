@@ -7,7 +7,7 @@ const bodyparser = require('body-parser');
 
 // Link Frotend
 const corsorigin = {
-    origin: 'https://frontend-h0q2fn28y-r-kaviyapriyas-projects.vercel.app'
+    origin: 'https://crtificate-verify.vercel.app'
 }
 
 app.use(cors(corsorigin))
@@ -53,7 +53,7 @@ app.delete('/remove/:_id', async (req, res) => {
 })
 
 app.listen(2301, () => {
-    console.log("server is running port:2300")
+    console.log("server is running port:2301")
 })
 
 // http://localhost:3000/update/2
